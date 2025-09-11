@@ -1,7 +1,6 @@
 <script setup>
 import { ref, watch } from 'vue';
 import { loadState, saveState } from '../utils/Store.js';
-import Login from './Login.vue';
 
 const theme = ref(loadState('theme') || 'light')
 
@@ -32,9 +31,7 @@ watch(theme, () => {
       <div class="collapse navbar-collapse " id="navbar-links">
         <ul class="navbar-nav">
           <li>
-            <RouterLink :to="{ name: 'About' }" class="btn text-green selectable">
-              About
-            </RouterLink>
+
           </li>
         </ul>
         <!-- LOGIN COMPONENT HERE -->
@@ -45,7 +42,6 @@ watch(theme, () => {
             <i v-if="theme == 'light'" class="mdi mdi-weather-night"></i>
           </button>
         </div>
-        <Login />
       </div>
     </div>
   </nav>

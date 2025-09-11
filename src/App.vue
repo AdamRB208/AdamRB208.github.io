@@ -9,10 +9,10 @@ import { RouterView } from 'vue-router';
     <Navbar />
   </header>
   <main>
-    <RouterView/>
+    <RouterView />
   </main>
   <footer class=" text-center">
-    Made with <i class="mdi mdi-heart text-pink"></i> by CodeWorks
+    Made with <i class="mdi mdi-vuejs color-vue"></i> by AdamRB208 <i class="mdi mdi-github"></i>
   </footer>
 </template>
 
