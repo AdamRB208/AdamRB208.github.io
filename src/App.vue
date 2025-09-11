@@ -12,7 +12,7 @@ import { RouterView } from 'vue-router';
     <RouterView />
   </main>
   <footer class=" text-center">
-    Made with <i class="mdi mdi-vuejs color-vue"></i> by AdamRB208 <i class="mdi mdi-github"></i>
+    Made with <i class="mdi mdi-vuejs text-vue"></i> by AdamRB208 <i class="mdi mdi-github"></i>
   </footer>
 </template>
 
