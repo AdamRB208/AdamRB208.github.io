@@ -1,15 +1,15 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
-import { RouterView } from 'vue-router';
+import HomePage from './pages/HomePage.vue';
 
 </script>
 
 <template>
   <header>
-    <Navbar />
   </header>
+  <Navbar />
   <main>
-    <RouterView />
+    <HomePage />
   </main>
   <footer class=" text-center">
     Made with <i class="mdi mdi-vuejs text-vue"></i> by AdamRB208 <i class="mdi mdi-github"></i>
