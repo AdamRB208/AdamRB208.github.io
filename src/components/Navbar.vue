@@ -17,32 +17,24 @@ watch(theme, () => {
 
 <template>
   <nav class="navbar navbar-expand-md bg-codeworks border-bottom border-vue">
-    <div class="container gap-2">
-      <div class="d-flex align-items-center">
-        <div class="d-flex justify-content-center">
-          <span class="m-2">
-            <a href="" class="fs-5">Home</a>
-          </span>
-          <span class="m-2">
-            <a href="" class="fs-5">About Me</a>
-          </span>
-          <span class="m-2">
-            <a href="" class="fs-5">Projects</a>
-          </span>
-          <span class="m-2">
-            <a href="" class="fs-5">Contact</a>
-          </span>
-        </div>
+    <div class="container" style="display: flex; justify-content: space-evenly;">
+      <div>
+        <span class="m-2 nav-links">
+          <a href="" class="mdi mdi-home-outline fs-5">Home</a>
+          <a href="" class="mdi mdi-human-greeting-variant fs-5">About Me</a>
+          <a href="" class="mdi mdi-xml fs-5">Projects</a>
+          <a href="" class="mdi mdi-human-greeting-proximity fs-5">Contact</a>
+        </span>
       </div>
+    </div>
 
-      <!-- THEME COMPONENT HERE -->
-      <div class="ms-auto">
-        <button class="btn text-light" @click="toggleTheme"
-          :title="`Enable ${theme == 'light' ? 'dark' : 'light'} theme.`">
-          <i v-if="theme == 'dark'" class="mdi mdi-weather-sunny"></i>
-          <i v-if="theme == 'light'" class="mdi mdi-weather-night"></i>
-        </button>
-      </div>
+    <!-- THEME COMPONENT HERE -->
+    <div class="ms-auto">
+      <button class="btn text-light" @click="toggleTheme"
+        :title="`Enable ${theme == 'light' ? 'dark' : 'light'} theme.`">
+        <i v-if="theme == 'dark'" class="mdi mdi-weather-sunny"></i>
+        <i v-if="theme == 'light'" class="mdi mdi-weather-night"></i>
+      </button>
     </div>
   </nav>
 </template>
@@ -51,6 +43,11 @@ watch(theme, () => {
 a {
   text-decoration: none;
 }
-
-
+.nav-links {
+  width: 100dvh;
+  gap: 5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 </style>
