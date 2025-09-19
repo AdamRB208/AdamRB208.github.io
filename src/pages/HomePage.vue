@@ -8,7 +8,7 @@ import HomeSection from '@/components/HomeSection.vue';
 </script>
 
 <template>
-  <section class="container">
+  <section class="container-fluid">
     <!-- NOTE Home Section Starts Here -->
     <div class="row home-section home-bg" id="home" style="height: 100dvh;">
       <HomeSection />
@@ -38,8 +38,9 @@ import HomeSection from '@/components/HomeSection.vue';
 
 <style scoped lang="scss">
 .home-bg {
-  background-image: url(https://media.istockphoto.com/id/2153711276/photo/modern-abstract-wavy-background.jpg?s=612x612&w=0&k=20&c=nsEvkJG98Q0Z69ioXrzPu0qYosaZ9UtzijEuzyTaI_k=);
-
-
+  background-image: url(https://media.istockphoto.com/id/2165466401/photo/abstract-digital-wave-background.jpg?s=612x612&w=0&k=20&c=DquetIJzq1KoZWhr6RFlWrUmyBIYi6ilVGTUQBhL7hE=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100dvh;
 }
 </style>
