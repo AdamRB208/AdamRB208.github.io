@@ -16,7 +16,7 @@ watch(theme, () => {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-md bg-codeworks border-bottom border-vue">
+  <nav class="navbar navbar-expand-md bg-codeworks">
     <div class="container" style="display: flex; justify-content: space-evenly;">
       <div>
         <span class="m-2 nav-links">
@@ -54,5 +54,6 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1020;
+  height: 3em;
 }
 </style>
