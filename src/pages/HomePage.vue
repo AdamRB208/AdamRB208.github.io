@@ -10,7 +10,7 @@ import HomeSection from '@/components/HomeSection.vue';
 <template>
   <section class="container">
     <!-- NOTE Home Section Starts Here -->
-    <div class="row home-section" id="home" style="height: 100dvh;">
+    <div class="row home-section home-bg" id="home" style="height: 100dvh;">
       <HomeSection />
     </div>
     <!-- NOTE About Section Starts Here -->
@@ -36,4 +36,10 @@ import HomeSection from '@/components/HomeSection.vue';
   </section>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.home-bg {
+  background-image: url(https://media.istockphoto.com/id/2153711276/photo/modern-abstract-wavy-background.jpg?s=612x612&w=0&k=20&c=nsEvkJG98Q0Z69ioXrzPu0qYosaZ9UtzijEuzyTaI_k=);
+
+
+}
+</style>
