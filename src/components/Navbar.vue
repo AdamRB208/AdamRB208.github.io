@@ -20,10 +20,10 @@ watch(theme, () => {
     <div class="container" style="display: flex; justify-content: space-evenly;">
       <div>
         <span class="m-2 nav-links">
-          <a href="#home" class="mdi mdi-home-outline fs-5">Home</a>
-          <a href="#about" class="mdi mdi-human-greeting-variant fs-5">About Me</a>
-          <a href="#projects" class="mdi mdi-xml fs-5">Projects</a>
-          <a href="#contact" class="mdi mdi-human-greeting-proximity fs-5">Contact</a>
+          <a href="#home" class="mdi mdi-home-outline fs-5"> Home</a>
+          <a href="#about" class="mdi mdi-human-greeting-variant fs-5"> About Me</a>
+          <a href="#projects" class="mdi mdi-xml fs-5"> Projects</a>
+          <a href="#contact" class="mdi mdi-human-greeting-proximity fs-5"> Contact</a>
         </span>
       </div>
     </div>
@@ -42,6 +42,7 @@ watch(theme, () => {
 <style lang="scss" scoped>
 a {
   text-decoration: none;
+  color: white;
 }
 .nav-links {
   width: 100dvh;
