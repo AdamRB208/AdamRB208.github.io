@@ -1,4 +1,4 @@
-<script setup >
+<script setup>
 
 
 
@@ -45,7 +45,20 @@
             </button>
           </div>
           <div class="d-flex justify-content-center">
-            form here
+            <form target="_blank" action="">
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Title:">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email:">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                  placeholder="Your Email:"></textarea>
+              </div>
+              <button class="btn btn-rounded btn-primary send-btn text-white mb-3">Send Message <i
+                  class="mdi mdi-email-fast-outline ms-1 fs-5"></i></button>
+            </form>
           </div>
         </span>
       </div>
@@ -59,4 +72,11 @@ a {
   color: inherit
 }
 
+form {
+  width: 80dvh;
+}
+
+.send-btn {
+  width: 80dvh;
+}
 </style>
