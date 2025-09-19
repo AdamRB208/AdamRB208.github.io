@@ -33,10 +33,15 @@
           </p>
           <div class="d-flex justify-content-center">
             <button class="btn" type="button">
-              <i class="mdi mdi-github fs-1"></i>
+              <a href="https://github.com/AdamRB208" target="_blank">
+                <i class="mdi mdi-github fs-1"></i>
+              </a>
             </button>
             <button class="btn" type="button">
-              <i class="mdi mdi-linkedin fs-1"></i>
+              <a href="https://www.linkedin.com/in/adam-borup-0a0911265?trk=people-guest_people_search-card"
+                target="_blank">
+                <i class="mdi mdi-linkedin fs-1"></i>
+              </a>
             </button>
           </div>
           <div class="d-flex justify-content-center">
@@ -49,5 +54,9 @@
 </template>
 
 <style scoped lang="scss">
+a {
+  text-decoration: none;
+  color: inherit
+}
 
 </style>
