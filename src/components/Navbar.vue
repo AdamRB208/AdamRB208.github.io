@@ -20,7 +20,7 @@ watch(theme, () => {
     <div class="container" style="display: flex; justify-content: space-evenly;">
       <div>
         <span class="m-2 nav-links" style="display: inline;">
-          <a href="#home" class="mdi mdi-home-outline fs-5 p-3"> Home</a>
+          <a href="#home" class="mdi mdi-home-outline font-glow fs-5 p-3"> Home</a>
           <a href="#about" class="mdi mdi-human-greeting-variant fs-5 p-3"> About Me</a>
           <a href="#skills" class="mdi mdi-karate fs-5 p-3">Skills</a>
           <a href="#projects" class="mdi mdi-xml fs-5 p-3"> Projects</a>
@@ -43,7 +43,8 @@ watch(theme, () => {
 <style lang="scss" scoped>
 a {
   text-decoration: none;
-  color: white;
+  color: #87beb8;
+    ;
 }
 .nav-links {
   width: 100dvh;
@@ -57,5 +58,8 @@ nav {
   top: 0;
   z-index: 1020;
   height: 3em;
+}
+i {
+  color: #87beb8;
 }
 </style>
