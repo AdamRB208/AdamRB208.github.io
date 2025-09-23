@@ -5,7 +5,7 @@
 
 <template>
   <div class="col-12 d-flex justify-content-center mt-5 pt-5 align-items-center" id="home">
-    <div class="d-block justify-content-center mt-5 ms-4 pt-5">
+    <div class="d-block justify-content-center ms-5 pt-5">
       <p class="text-center fs-2 home-text">Hello, I'm Adam Borup</p>
       <p class="fs-5 home-text">A Fullstack Software Developer</p>
     </div>

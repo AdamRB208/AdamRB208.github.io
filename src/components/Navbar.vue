@@ -19,11 +19,12 @@ watch(theme, () => {
   <nav class="navbar navbar-expand-md bg-codeworks">
     <div class="container" style="display: flex; justify-content: space-evenly;">
       <div>
-        <span class="m-2 nav-links">
-          <a href="#home" class="mdi mdi-home-outline fs-5"> Home</a>
-          <a href="#about" class="mdi mdi-human-greeting-variant fs-5"> About Me</a>
-          <a href="#projects" class="mdi mdi-xml fs-5"> Projects</a>
-          <a href="#contact" class="mdi mdi-human-greeting-proximity fs-5"> Contact</a>
+        <span class="m-2 nav-links" style="display: inline;">
+          <a href="#home" class="mdi mdi-home-outline fs-5 p-3"> Home</a>
+          <a href="#about" class="mdi mdi-human-greeting-variant fs-5 p-3"> About Me</a>
+          <a href="#skills" class="mdi mdi-karate fs-5 p-3">Skills</a>
+          <a href="#projects" class="mdi mdi-xml fs-5 p-3"> Projects</a>
+          <a href="#contact" class="mdi mdi-human-greeting-proximity fs-5 p-3"> Contact</a>
         </span>
       </div>
     </div>

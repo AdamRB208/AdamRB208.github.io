@@ -18,6 +18,12 @@ import HomeSection from '@/components/HomeSection.vue';
     <div class="row about-section" id="about">
       <AboutSection />
     </div>
+    <!-- NOTE Skills Section Starts Here -->
+    <div class="row skills-section" id="skills" style="height: 100dvh;">
+      <div class="col-12 d-flex justify-content-center mt-5" id="skills">
+        <div class="fs-2">My Skills</div>
+      </div>
+    </div>
     <!-- NOTE Projects Section Starts Here -->
     <div class="row projects-section" id="projects" style="height: 100dvh;">
       <div class="col-12 d-flex justify-content-center mt-5" id="projects">
