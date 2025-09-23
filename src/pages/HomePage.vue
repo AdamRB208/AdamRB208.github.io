@@ -1,4 +1,5 @@
 <script setup>
+import AboutSection from '@/components/AboutSection.vue';
 import ContactSection from '@/components/ContactSection.vue';
 import HomeSection from '@/components/HomeSection.vue';
 
@@ -14,12 +15,8 @@ import HomeSection from '@/components/HomeSection.vue';
       <HomeSection />
     </div>
     <!-- NOTE About Section Starts Here -->
-    <div class="row about-section" id="about" style="height: 100dvh;">
-      <div class="col-12 d-flex justify-content-center mt-5" id="about">
-        <span>
-          <h1>About Adam Borup</h1>
-        </span>
-      </div>
+    <div class="row about-section" id="about">
+      <AboutSection />
     </div>
     <!-- NOTE Projects Section Starts Here -->
     <div class="row projects-section" id="projects" style="height: 100dvh;">
