@@ -1,9 +1,24 @@
 <script setup>
-import { VueJS } from '../assets/icons/VueJS.svg';
+import VueJS from '../assets/icons/VueJS.svg';
+import JavaScript from '../assets/icons/JavaScript.svg';
+import HTML from '../assets/icons/HTML.svg';
+import CSS from '../assets/icons/CSS.svg';
+import MongoDB from "../assets/icons/MongoDB.svg";
+import MySQL from "../assets/icons/MySQL.svg";
+
 
 const frontendIcons = [
-  { name: 'VueJS', icon: 'VueJS.svg' }
+  { name: 'VueJS', path: VueJS, description: "Vue is a progressive JavaScript framework used for building interactive user interfaces and single-page applications." },
+  { name: 'JavasScript', path: JavaScript, description: 'JavaScript is a versatile programming language used to add interactivity and dynamic behavior to web pages.' },
+  { name: 'HTML', path: HTML, description: "(HyperText Markup Language) is the standard language used to create and structure content on the web." },
+  { name: 'CSS', path: CSS, description: "CSS (Cascading Style Sheets) is used to style and layout web pages, controlling colors, fonts, and spacing." }
 ];
+
+const backendIcons = [
+  { name: 'MongoDB', path: MongoDB, description: "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, making it easy to work with unstructured or semi-structured data." },
+  { name: 'MySQL', path: MySQL, description: "MySQL is an open-source relational database management system that stores and organizes data in structured tables using SQL (Structured Query Language)." },
+
+]
 </script>
 
 
@@ -25,15 +40,15 @@ const frontendIcons = [
         </button>
       </p>
       <p>
-        <button class="btn btn-glow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
-          aria-expanded="false" aria-controls="collapseWidthExample">
+        <button class="btn btn-glow" type="button" data-bs-toggle="collapse" data-bs-target="#backendLanguages"
+          aria-expanded="false" aria-controls="backendLanguages">
           BackEnd Languages
         </button>
       </p>
       <p>
         <button class="btn btn-glow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
           aria-expanded="false" aria-controls="collapseWidthExample">
-          Other Languages
+          Other
         </button>
       </p>
     </div>
@@ -42,12 +57,20 @@ const frontendIcons = [
     <div class="col d-flex justify-content-center">
       <div style="display: block;">
         <div class="collapse multi-collapse" id="frontendLanguages">
-          <div class="card card-body" style="height: 300px;">
-            This is some placeholder content for a horizontal collapse. It’s hidden by default and shown when
-            triggered.
-            <div v-for="skill in frontendIcons" :key="skill.name">
-              <img :src="skill.icon" alt="skill.name">
-              <div>{{ VueJS }}</div>
+          <div class="card card-body flex-row justify-content-between mt-4"
+            style="height: 300px; width: 100dvw; border: none;">
+            <div v-for="icon in frontendIcons" :key="icon.name" class="frontEndIcons">
+              <img :src="icon.path" :alt="icon.name">
+              <p class="iconDesc">{{ icon.description }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="collapse multi-collapse" id="backendLanguages">
+          <div class="card card-body flex-row justify-content-between mt-4"
+            style="height: 300px; width: 100dvw; border: none;">
+            <div v-for="icon in backendIcons" :key="icon.name" class="frontEndIcons">
+              <img :src="icon.path" :alt="icon.name">
+              <p class="iconDesc">{{ icon.description }}</p>
             </div>
           </div>
         </div>
@@ -61,5 +84,23 @@ const frontendIcons = [
 <style lang="scss" scoped>
 p {
   margin: 1.5em;
+}
+// p.iconDesc {
+//   margin-left: 1em;
+// }
+
+img {
+  width: 64px;
+  height: 64px;
+  ;
+}
+
+.frontEndIcons {
+  display: grid;
+  justify-items: center;
+}
+
+.iconDesc {
+  max-width: 12em;
 }
 </style>
