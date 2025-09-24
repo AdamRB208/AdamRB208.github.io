@@ -8,8 +8,6 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
     <div class="d-flex justify-content-center mb-5 mt-5">
       <h1>About Adam Borup</h1>
     </div>
-    <div>
-    </div>
     <div class="row">
       <div class="col-md-5 d-flex justify-content-center">
         <div class="pt-5">

@@ -28,14 +28,15 @@
       <div class="d-flex justify-content-center">
         <form target="_blank" action="">
           <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="To: Adamrborup@gmail.com">
+          </div>
+          <div class="mb-3">
             <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Title:">
           </div>
           <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email:">
-          </div>
-          <div class="mb-3">
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-              placeholder="Your Email:"></textarea>
+              placeholder="Email Body:"></textarea>
           </div>
           <div class="mb-1">
             <button class="btn btn-rounded btn-primary send-btn text-white" title="Send Message">Send Message <i

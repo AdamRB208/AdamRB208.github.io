@@ -36,9 +36,9 @@ const otherIcons = [
 
 
 <template>
-  <div class="col-12 d-block justify-content-center" id="skills">
-    <div>
-      <div class="fs-1 text-center mt-5">My Skills</div>
+  <div class="col-12 d-block justify-content-center mt-5" id="skills">
+    <div style="max-height: 30dvh;">
+      <div class="fs-1 text-center">My Skills</div>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim eligendi, excepturi perspiciatis delectus
         dignissimos laboriosam blanditiis alias nemo culpa officia sint esse eum porro in consectetur! Eveniet
         quisquam
@@ -66,7 +66,7 @@ const otherIcons = [
       </button>
     </p>
   </div>
-  <div class="collapse multi-collapse d-block" id="frontendBtn">
+  <div class="collapse" id="frontendBtn">
     <div class="card card-body flex-row justify-content-evenly mt-4"
       style="height: 300px; width: 100dvw; border: none;">
       <div v-for="icon in frontendIcons" :key="icon.name" class="icons">
@@ -75,7 +75,7 @@ const otherIcons = [
       </div>
     </div>
   </div>
-  <div class="collapse multi-collapse" id="backendBtn">
+  <div class="collapse" id="backendBtn">
     <div class="card card-body flex-row justify-content-evenly mt-4"
       style="height: 300px; width: 100dvw; border: none;">
       <div v-for="icon in backendIcons" :key="icon.name" class="icons">
@@ -84,7 +84,7 @@ const otherIcons = [
       </div>
     </div>
   </div>
-  <div class="collapse multi-collapse" id="otherBtn">
+  <div class="collapse" id="otherBtn">
     <div class="card card-body flex-row justify-content-evenly mt-4"
       style="height: 300px; width: 100dvw; border: none;">
       <div v-for="icon in otherIcons" :key="icon.name" class="icons">
