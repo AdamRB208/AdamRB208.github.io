@@ -48,20 +48,20 @@ const otherIcons = [
   </div>
   <div class="d-flex justify-content-center">
     <p>
-      <button class="btn btn-glow" type="button" data-bs-toggle="collapse" data-bs-target="#frontendBtn"
-        aria-expanded="false" aria-controls="frontendBtn">
+      <button class="btn btn-glow text-center" type="button" data-bs-toggle="collapse" data-bs-target="#frontendBtn"
+        aria-expanded="false" aria-controls="frontendBtn"><i class="mdi mdi-monitor-cellphone fs-4 text-center"></i>
         Frontend
       </button>
     </p>
     <p>
       <button class="btn btn-glow" type="button" data-bs-toggle="collapse" data-bs-target="#backendBtn"
-        aria-expanded="false" aria-controls="backendBtn">
+        aria-expanded="false" aria-controls="backendBtn"><i class="mdi mdi-database-outline fs-4 text-center"></i>
         Backend
       </button>
     </p>
     <p>
-      <button class="btn btn-glow" type="button" data-bs-toggle="collapse" data-bs-target="#otherBtn"
-        aria-expanded="false" aria-controls="otherBtn">
+      <button class="btn btn-glow text-center" type="button" data-bs-toggle="collapse" data-bs-target="#otherBtn"
+        aria-expanded="false" aria-controls="otherBtn"><i class="mdi mdi-source-branch fs-4 text-center"></i>
         Other
       </button>
     </p>
