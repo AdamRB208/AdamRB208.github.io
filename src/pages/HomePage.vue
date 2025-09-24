@@ -20,7 +20,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
       <AboutSection />
     </div>
     <!-- NOTE Skills Section Starts Here -->
-    <div class="row skills-section" id="skills" style="height: 100dvh;">
+    <div class="row skills-section" id="skills">
       <SkillsSection />
     </div>
     <!-- NOTE Projects Section Starts Here -->
