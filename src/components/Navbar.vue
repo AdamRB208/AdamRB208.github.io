@@ -16,10 +16,10 @@ watch(theme, () => {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-md bg-codeworks">
-    <div class="container" style="display: flex; justify-content: space-evenly;">
+  <nav class="container-fluid navbar navbar-expand-md bg-codeworks">
+    <div>
       <div>
-        <!-- TODO make sure that there is no overflow on the nav bar on small screen sizes -->
+        <!-- TODO get the links to show in a dropdown when screen size goes below X size -->
         <span class="m-2 nav-links" style="display: inline;">
           <a href="#home" class="mdi mdi-home-outline font-glow fs-5 p-3"> Home</a>
           <a href="#about" class="mdi mdi-human-greeting-variant fs-5 p-3"> About Me</a>
@@ -48,19 +48,23 @@ a {
     ;
 }
 .nav-links {
-  width: 100dvh;
-  gap: 5em;
+  gap: 1em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 nav {
   position: sticky;
   top: 0;
   z-index: 1020;
-  height: 3em;
+  height: auto;
 }
 i {
   color: #87beb8;
+}
+.container-fluid {
+  width: 100%;
+  padding: 0 1em;
 }
 </style>
