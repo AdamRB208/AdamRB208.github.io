@@ -16,7 +16,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
       <HomeSection />
     </div>
     <!-- NOTE About Section Starts Here -->
-    <div class="row about-section" id="about">
+    <div class="row about-section" id="about" style="height: 100dvh;">
       <AboutSection />
     </div>
     <!-- NOTE Skills Section Starts Here -->
@@ -43,6 +43,8 @@ import SkillsSection from '@/components/SkillsSection.vue';
   background-image: url(https://media.istockphoto.com/id/2165466401/photo/abstract-digital-wave-background.jpg?s=612x612&w=0&k=20&c=DquetIJzq1KoZWhr6RFlWrUmyBIYi6ilVGTUQBhL7hE=);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100dvh;
+    background-position: center;
+      width: 100dvw;
+      height: 100dvh;
 }
 </style>
