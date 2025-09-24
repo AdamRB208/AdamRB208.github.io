@@ -4,8 +4,8 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
 
 
 <template>
-  <div class="col-12 d-block justify-content-center mt-5" id="about">
-    <div class="d-flex justify-content-center mb-5">
+  <div class="col-12 d-block justify-content-center" id="about">
+    <div class="d-flex justify-content-center mb-5 mt-5">
       <h1>About Adam Borup</h1>
     </div>
     <div>
@@ -16,7 +16,7 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
           <img :src="Portfolio_Image" alt="portfolio image of Adam Borup">
         </div>
       </div>
-      <div class="col-md-7 d-flex justify-content-center ps-2 pe-5">
+      <div class="col-md-7 d-flex justify-content-center ps-2 pe-5 mb-5">
         <div class="d-block">
           <div class="fw-bold text-center pb-2">About Me</div>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut omnis accusantium sapiente beatae voluptates,
@@ -33,17 +33,6 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsa ut explicabo, doloribus iure eos
             neque? Impedit laudantium deserunt iste fugiat doloribus labore aut cumque! Laudantium vero delectus
             possimus neque, omnis voluptas voluptates natus. Laudantium velit recusandae ratione veritatis? Ipsam!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 d-flex justify-content-center">
-      <div class="d-block">
-        <div>
-          <div>
-            <p></p>
-          </div>
         </div>
       </div>
     </div>
