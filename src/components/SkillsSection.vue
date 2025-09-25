@@ -37,7 +37,7 @@ const otherIcons = [
 function closeOtherSections(currentSectionId) {
   const allSelectionIds = ['frontendBtn', 'backendBtn', 'otherBtn'];
   allSelectionIds.forEach(id => {
-    const elemName = document.getElementById(currentSectionId);
+    const elemName = document.getElementById(id);
     if (elemName) {
       const collapseInstance = Collapse.getOrCreateInstance(elemName);
       collapseInstance.hide();
@@ -50,6 +50,12 @@ function closeOtherSections(currentSectionId) {
     collapseInstance.show();
     logger.log('currentElemName', currentElemName)
   }
+}
+
+function buttonClick(event, currentSectionId) {
+  event.preventDefault();
+  event.stopPropagation();
+  closeOtherSections(currentSectionId);
 }
 
 </script>
@@ -68,22 +74,22 @@ function closeOtherSections(currentSectionId) {
   </div>
   <div class="d-flex justify-content-center">
     <p>
-      <button @click="closeOtherSections('frontendBtn')" class="btn btn-glow text-center" type="button"
-        data-bs-toggle="collapse" data-bs-target="#frontendBtn" aria-expanded="false" aria-controls="frontendBtn"><i
+      <button @click.prevent="buttonClick($event, 'frontendBtn')" class="btn btn-glow text-center" type="button"
+        data-bs-target="#frontendBtn" aria-expanded="false" aria-controls="frontendBtn"><i
           class="mdi mdi-monitor-cellphone fs-4 text-center"></i>
         Frontend
       </button>
     </p>
     <p>
-      <button @click="closeOtherSections('backendBtn')" class="btn btn-glow" type="button" data-bs-toggle="collapse"
+      <button @click.prevent="buttonClick($event, 'backendBtn')" class="btn btn-glow" type="button"
         data-bs-target="#backendBtn" aria-expanded="false" aria-controls="backendBtn"><i
           class="mdi mdi-database-outline fs-4 text-center"></i>
         Backend
       </button>
     </p>
     <p>
-      <button @click="closeOtherSections('otherBtn')" class="btn btn-glow text-center" type="button"
-        data-bs-toggle="collapse" data-bs-target="#otherBtn" aria-expanded="false" aria-controls="otherBtn"><i
+      <button @click.prevent="buttonClick($event, 'otherBtn')" class="btn btn-glow text-center" type="button"
+        data-bs-target="#otherBtn" aria-expanded="false" aria-controls="otherBtn"><i
           class="mdi mdi-source-branch fs-4 text-center"></i>
         Other
       </button>
