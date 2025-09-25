@@ -10,6 +10,8 @@ import NodeJS from "../assets/icons/NodeJs.svg";
 import Auth0 from "../assets/icons/Auth0.svg";
 import Docker from "../assets/icons/Docker.svg";
 import Figma from "../assets/icons/Figma.svg";
+import { Collapse } from 'bootstrap';
+import { logger } from '@/utils/Logger.js';
 
 
 const frontendIcons = [
@@ -32,6 +34,24 @@ const otherIcons = [
   { name: 'Figma', path: Figma, description: "Figma is a collaborative web-based design tool that allows teams to create, prototype, and share user interface designs in real time." }
 ]
 
+function closeOtherSections(currentSectionId) {
+  const allSelectionIds = ['frontendBtn', 'backendBtn', 'otherBtn'];
+  allSelectionIds.forEach(id => {
+    const elemName = document.getElementById(currentSectionId);
+    if (elemName) {
+      const collapseInstance = Collapse.getOrCreateInstance(elemName);
+      collapseInstance.hide();
+      logger.log('elemName', elemName)
+    }
+  });
+  const currentElemName = document.getElementById(currentSectionId);
+  if (currentElemName) {
+    const collapseInstance = Collapse.getOrCreateInstance(currentElemName);
+    collapseInstance.show();
+    logger.log('currentElemName', currentElemName)
+  }
+}
+
 </script>
 
 
@@ -48,20 +68,23 @@ const otherIcons = [
   </div>
   <div class="d-flex justify-content-center">
     <p>
-      <button class="btn btn-glow text-center" type="button" data-bs-toggle="collapse" data-bs-target="#frontendBtn"
-        aria-expanded="false" aria-controls="frontendBtn"><i class="mdi mdi-monitor-cellphone fs-4 text-center"></i>
+      <button @click="closeOtherSections('frontendBtn')" class="btn btn-glow text-center" type="button"
+        data-bs-toggle="collapse" data-bs-target="#frontendBtn" aria-expanded="false" aria-controls="frontendBtn"><i
+          class="mdi mdi-monitor-cellphone fs-4 text-center"></i>
         Frontend
       </button>
     </p>
     <p>
-      <button class="btn btn-glow" type="button" data-bs-toggle="collapse" data-bs-target="#backendBtn"
-        aria-expanded="false" aria-controls="backendBtn"><i class="mdi mdi-database-outline fs-4 text-center"></i>
+      <button @click="closeOtherSections('backendBtn')" class="btn btn-glow" type="button" data-bs-toggle="collapse"
+        data-bs-target="#backendBtn" aria-expanded="false" aria-controls="backendBtn"><i
+          class="mdi mdi-database-outline fs-4 text-center"></i>
         Backend
       </button>
     </p>
     <p>
-      <button class="btn btn-glow text-center" type="button" data-bs-toggle="collapse" data-bs-target="#otherBtn"
-        aria-expanded="false" aria-controls="otherBtn"><i class="mdi mdi-source-branch fs-4 text-center"></i>
+      <button @click="closeOtherSections('otherBtn')" class="btn btn-glow text-center" type="button"
+        data-bs-toggle="collapse" data-bs-target="#otherBtn" aria-expanded="false" aria-controls="otherBtn"><i
+          class="mdi mdi-source-branch fs-4 text-center"></i>
         Other
       </button>
     </p>
