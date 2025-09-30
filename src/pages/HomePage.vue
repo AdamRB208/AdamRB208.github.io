@@ -2,6 +2,7 @@
 import AboutSection from '@/components/AboutSection.vue';
 import ContactSection from '@/components/ContactSection.vue';
 import HomeSection from '@/components/HomeSection.vue';
+import ProjectsSection from '@/components/ProjectsSection.vue';
 import SkillsSection from '@/components/SkillsSection.vue';
 
 
@@ -25,11 +26,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
     </div>
     <!-- NOTE Projects Section Starts Here -->
     <div class="row projects-section mt-5 mb-2" id="projects" style="height: 100dvh;">
-      <div class="col-12 d-flex justify-content-center mt-5" id="projects">
-        <span>
-          <h2>Featured Projects</h2>
-        </span>
-      </div>
+      <ProjectsSection />
     </div>
     <!-- NOTE Contact Section Starts Here -->
     <div class="row contact-section" id="contact" style="height: 100dvh;">
