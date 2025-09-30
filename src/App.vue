@@ -8,7 +8,7 @@ import HomePage from './pages/HomePage.vue';
   <header>
   </header>
   <Navbar />
-  <main>
+  <main style="max-width: 100dvw;">
     <HomePage />
   </main>
   <footer class=" text-center">

@@ -2,6 +2,7 @@
 import AboutSection from '@/components/AboutSection.vue';
 import ContactSection from '@/components/ContactSection.vue';
 import HomeSection from '@/components/HomeSection.vue';
+import Navbar from '@/components/Navbar.vue';
 import ProjectsSection from '@/components/ProjectsSection.vue';
 import SkillsSection from '@/components/SkillsSection.vue';
 
@@ -13,16 +14,19 @@ import SkillsSection from '@/components/SkillsSection.vue';
 <!-- TODO go through all pages and make margins between sections consistent -->
 <template>
   <section class="container-fluid">
+    <!-- <div class="row nav-bar" style="max-width: 100dvw;">
+      <Navbar />
+    </div> -->
     <!-- NOTE Home Section Starts Here -->
     <div class="row home-section home-bg" id="home" style="height: 100dvh;">
       <HomeSection />
     </div>
     <!-- NOTE About Section Starts Here -->
-    <div class="row about-section mt-5 mb-5" id="about" style="height: 100dvh;">
+    <div class="row about-section mt-5" id="about" style="height: auto;">
       <AboutSection />
     </div>
     <!-- NOTE Skills Section Starts Here -->
-    <div class="row skills-section mt-5 mb-2" id="skills" style="height: 100dvh; min-height: auto;">
+    <div class="row skills-section mb-2" id="skills" style="height: auto;">
       <SkillsSection />
     </div>
     <!-- NOTE Projects Section Starts Here -->
