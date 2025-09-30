@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard.vue';
 
 
 <template>
-  <div class="col-12 d-flex justify-content-center mt-3" id="projects">
+  <div class="col-12 d-flex justify-content-center mt-5" id="projects">
     <div class="d-block text-center" style="margin-bottom: 5rem;">
       <div class="fs-1" style="margin-bottom: 5rem;">Featured Projects</div>
       <p>Below are some of my more impressive and fullstack applications and projects that I have built to date. The

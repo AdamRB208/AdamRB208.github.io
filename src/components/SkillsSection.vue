@@ -62,7 +62,7 @@ function buttonClick(event, currentSectionId) {
 
 
 <template>
-  <div class="col-12 d-block justify-content-center mt-5" id="skills">
+  <div class="col-12 d-block justify-content-center" id="skills">
     <div style="margin-top: 5rem;">
       <div class="fs-1 text-center" style="margin-bottom: 5rem;">My Skills</div>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim eligendi, excepturi perspiciatis delectus

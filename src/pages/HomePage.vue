@@ -10,6 +10,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
 
 </script>
 
+<!-- TODO go through all pages and make margins between sections consistent -->
 <template>
   <section class="container-fluid">
     <!-- NOTE Home Section Starts Here -->
@@ -21,7 +22,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
       <AboutSection />
     </div>
     <!-- NOTE Skills Section Starts Here -->
-    <div class="row skills-section mt-5 mb-2" id="skills" style="height: 100dvh;">
+    <div class="row skills-section mt-5 mb-2" id="skills" style="height: 100dvh; min-height: auto;">
       <SkillsSection />
     </div>
     <!-- NOTE Projects Section Starts Here -->
