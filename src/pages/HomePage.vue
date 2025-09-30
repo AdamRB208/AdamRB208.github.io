@@ -14,9 +14,6 @@ import SkillsSection from '@/components/SkillsSection.vue';
 <!-- TODO go through all pages and make margins between sections consistent -->
 <template>
   <section class="container-fluid">
-    <!-- <div class="row nav-bar" style="max-width: 100dvw;">
-      <Navbar />
-    </div> -->
     <!-- NOTE Home Section Starts Here -->
     <div class="row home-section home-bg" id="home" style="height: 100dvh;">
       <HomeSection />
