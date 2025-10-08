@@ -14,6 +14,7 @@ import { Collapse } from 'bootstrap';
 import { logger } from '@/utils/Logger.js';
 
 
+
 const frontendIcons = [
   { name: 'VueJS', path: VueJS, description: "Vue is a progressive JavaScript framework used for building interactive user interfaces and single-page applications." },
   { name: 'JavasScript', path: JavaScript, description: 'JavaScript is a versatile programming language used to add interactivity and dynamic behavior to web pages.' },
