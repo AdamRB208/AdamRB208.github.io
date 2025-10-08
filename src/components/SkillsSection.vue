@@ -7,9 +7,9 @@ import MongoDB from "@icons/mongo-db.svg";
 import MySQL from "@icons/my-sql.svg";
 import cSharp from "@icons/c-sharp.png";
 import NodeJS from "@icons/node-js.svg";
-import Auth0 from "@icons/auth0.svg";
-import Docker from "@icons/docker.svg";
-import Figma from "@icons/figma.svg";
+import Auth0 from "@icons/Auth0.svg";
+import Docker from "@icons/Docker.svg";
+import Figma from "@icons/Figma.svg";
 import { Collapse } from 'bootstrap';
 import { logger } from '@/utils/Logger.js';
 
