@@ -4,7 +4,7 @@ import JavaScript from '@icons/js.svg';
 import HTML from '@icons/HTML.svg';
 import CSS from '@icons/CSS.svg';
 import MongoDB from "@icons/mongo-db.svg";
-import MySQL from "@icons/mysql.svg";
+import MySQL from "@icons/my-sql.svg";
 import cSharp from "@icons/c-sharp.png";
 import NodeJS from "@icons/node-js.svg";
 import Auth0 from "@icons/auth0.svg";
