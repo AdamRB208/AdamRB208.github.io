@@ -1,15 +1,15 @@
 <script setup>
-import VueJS from '../assets/icons/VueJS.svg';
-import JavaScript from '../assets/icons/JavaScript.svg';
-import HTML from '../assets/icons/HTML.svg';
-import CSS from '../assets/icons/CSS.svg';
-import MongoDB from "../assets/icons/MongoDB.svg";
-import MySQL from "../assets/icons/MySQL.svg";
-import cSharp from "../assets/icons/c-sharp.png";
-import NodeJS from "../assets/icons/NodeJs.svg";
-import Auth0 from "../assets/icons/Auth0.svg";
-import Docker from "../assets/icons/Docker.svg";
-import Figma from "../assets/icons/Figma.svg";
+import VueJS from '@icons/VueJS.svg';
+import JavaScript from '@icons/JavaScript.svg';
+import HTML from '@icons/HTML.svg';
+import CSS from '@icons/CSS.svg';
+import MongoDB from "@icons/MongoDB.svg";
+import MySQL from "@icons/MySQL.svg";
+import cSharp from "@icons/c-sharp.png";
+import NodeJS from "@icons/NodeJs.svg";
+import Auth0 from "@icons/Auth0.svg";
+import Docker from "@icons/Docker.svg";
+import Figma from "@icons/Figma.svg";
 import { Collapse } from 'bootstrap';
 import { logger } from '@/utils/Logger.js';
 
