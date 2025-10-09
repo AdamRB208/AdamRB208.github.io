@@ -17,20 +17,30 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
       <div class="col-md-7 d-flex justify-content-center ps-2 pe-5 mb-5">
         <div class="d-block">
           <div class="fw-bold text-center pb-2">About Me</div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut omnis accusantium sapiente beatae voluptates,
-            incidunt, quam debitis consectetur cumque optio quo tenetur amet tempora explicabo dolor ea minus culpa
-            suscipit sit ad. Assumenda expedita, necessitatibus odit hic numquam, officiis facilis nam aliquam
-            perspiciatis molestias blanditiis quaerat illum animi laboriosam pariatur voluptatibus dicta quos
-            exercitationem eius consequatur doloremque rem eligendi maiores.</p>
+          <p>My name is Adam Borup, I grew up in Boise Idaho and am happy to call it home. I am a proud husband and
+            father to my wife Brianna and our two boys Mason and Malcolm. Growing up I spent a lot of time outside with
+            my Grandfather hiking, fishing and camping so my love of the outdoors was engrained in me from a young age.
+            I also loved playing on the computer and as a kid, we had all kinds of computer games and video game
+            consoles so that was also a big part of my life. Throughout my life I have always loved working with
+            computers. I enjoy learning how to use new software or features and finding new ways to take advantage of
+            all of the things that they have to offer in everyday life.</p>
           <div class="fw-bold text-center pb-2">My Journey</div>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, sed quibusdam natus aliquid labore
-            voluptatem impedit suscipit cumque minima reprehenderit nesciunt consequuntur, aut ex iure quasi molestias
-            repellat vero, esse nisi doloremque commodi inventore! Quod excepturi quia magnam cupiditate et, voluptatum
-            quam, ipsa, eaque modi totam unde. Quia, ut nihil!</p>
+          <p>My journey into tech began when I took a free online course through Code School on HTML and CSS and
+            JavaScript. I learned a lot from them but the most important thing I learned was how much I actually enjoyed
+            software and web development and that I could see myself doing it as a career. I worked for a bank for
+            almost 10 years and in late summer of 2024 they announced that they would be closing our site. While that
+            was initially challenging I quickly realized that it was an opportunity to finally get into a software
+            development job. Shortly after, a close friend recommend a local coding academy that offered a fullstack web
+            development course and soon after I was signed up for the spring 2025 class at Boise CodeWorks Academy. On
+            August 22, 2025 I got my certificate of achievement of their fullstack web developer course as a certified
+            fullstack web developer.</p>
           <div class="fw-bold text-center pb-2">What I'm Working On</div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsa ut explicabo, doloribus iure eos
-            neque? Impedit laudantium deserunt iste fugiat doloribus labore aut cumque! Laudantium vero delectus
-            possimus neque, omnis voluptas voluptates natus. Laudantium velit recusandae ratione veritatis? Ipsam!</p>
+          <p>Currently I’m working on this portfolio website, getting the site and all of my applications that I have
+            built live and included here in the website. After I have the website completed I plan to take a free course
+            that Boise CodeWorks Academy offered to me after completing the fullstack course for Python. I enjoy
+            learning new things when it comes to software development and I plan to constantly continue my learning
+            journey with all that Python has to offer as well as thought my career as a software developer. Once I get a
+            Python project started I plan to include it here and will make updates to the site as needed.</p>
         </div>
       </div>
     </div>
