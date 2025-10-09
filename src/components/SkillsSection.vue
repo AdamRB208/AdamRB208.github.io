@@ -66,11 +66,16 @@ function buttonClick(event, currentSectionId) {
   <div class="col-12 d-block justify-content-center mt-5" id="skills">
     <div>
       <div class="fs-1 text-center" style="margin-bottom: 5rem;">My Skills</div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim eligendi, excepturi perspiciatis delectus
-        dignissimos laboriosam blanditiis alias nemo culpa officia sint esse eum porro in consectetur! Eveniet
-        quisquam
-        perspiciatis ullam ipsam ratione culpa necessitatibus amet. Dolorum iusto quae nihil libero dolores labore,
-        voluptatibus praesentium consectetur ab sequi soluta dignissimos explicabo?</p>
+      <p>Learning frontend web development I have learned multiple languages and frameworks that include HTML, CSS,
+        JavaScript and Vue.js. I have learned how to structure and style web content with HTML and CSS. Handle events,
+        create responsive layouts, integrate with third party services, DOM manipulation and create reusable UI
+        components with JavaScript and Vue.js. Learning backend web development languages I have learned Node.js, C# and
+        MySQL. I have learned enhanced data retrieval and manipulation through and query optimization with MySQL; schema
+        design, dependency injection and asynchronous programming with C#; implementing server MVC design patterns,
+        utilizing HTTP methods, CRUD Application management, performance Optimization and API endpoint testing with
+        Node.js as well as using secure coding practices for all of the previous languages listed. I can also utilize
+        skills for git and gitHub, utilize and implement Auth0 for user authentication, creating Docker images and
+        containers and utilizing Figma for UI/UX designs and layouts. </p>
     </div>
   </div>
   <div class="d-flex justify-content-center">
