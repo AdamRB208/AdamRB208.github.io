@@ -16,7 +16,7 @@ import { logger } from '@/utils/Logger.js';
 
 
 const frontendIcons = [
-  { name: 'VueJS', path: VueJS, description: "Vue.js is a progressive JavaScript framework used for building interactive user interfaces and single-page applications." },
+  { name: 'VueJS', path: VueJS, description: "Vue is a progressive JavaScript framework used for building interactive user interfaces and single-page applications." },
   { name: 'JavasScript', path: JavaScript, description: 'JavaScript is a versatile programming language used to add interactivity and dynamic behavior to web pages.' },
   { name: 'HTML', path: HTML, description: "(HyperText Markup Language) is the standard language used to create and structure content on the web." },
   { name: 'CSS', path: CSS, description: "CSS (Cascading Style Sheets) is used to style and layout web pages, controlling colors, fonts, and spacing." }
@@ -26,7 +26,7 @@ const backendIcons = [
   { name: 'MongoDB', path: MongoDB, description: "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, making it easy to work with unstructured or semi-structured data." },
   { name: 'MySQL', path: MySQL, description: "MySQL is an open-source relational database management system that stores and organizes data in structured tables using SQL (Structured Query Language)." },
   { name: 'cSharp', path: cSharp, description: "C# is a modern, object-oriented programming language developed by Microsoft for building a wide range of applications on the .NET platform." },
-  { name: 'NodeJs', path: NodeJS, description: "Node.js is a runtime environment that allows you to run JavaScript code on the server side, enabling backend development with JavaScript." }
+  { name: 'NodeJs', path: NodeJS, description: "Node is a runtime environment that allows you to run JavaScript code on the server side, enabling backend development with JavaScript." }
 ];
 
 const otherIcons = [
