@@ -2,7 +2,6 @@
 import AboutSection from '@/components/AboutSection.vue';
 import ContactSection from '@/components/ContactSection.vue';
 import HomeSection from '@/components/HomeSection.vue';
-import Navbar from '@/components/Navbar.vue';
 import ProjectsSection from '@/components/ProjectsSection.vue';
 import SkillsSection from '@/components/SkillsSection.vue';
 
