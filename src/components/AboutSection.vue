@@ -35,7 +35,7 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
             August 22, 2025 I got my certificate of achievement of their fullstack web developer course as a certified
             fullstack web developer.</p>
           <div class="fw-bold text-center pb-2">What I'm Working On</div>
-          <p>Currently I’m working on this portfolio website, getting the site and all of my applications that I have
+          <p>Currently Im working on this portfolio website, getting the site and all of my applications that I have
             built live and included here in the website. After I have the website completed I plan to take a free course
             that Boise CodeWorks Academy offered to me after completing the fullstack course for Python. I enjoy
             learning new things when it comes to software development and I plan to constantly continue my learning
