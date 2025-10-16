@@ -16,7 +16,7 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
       </div>
       <div class="col-md-7 d-flex justify-content-center ps-2 pe-5 mb-5">
         <div class="d-block">
-          <div class="fw-bold text-center pb-2">About Me</div>
+          <div class="fw-bold text-center pb-2 mt-3">About Me</div>
           <p>My name is Adam Borup, I grew up in Boise Idaho and am happy to call it home. I am a proud husband and
             father to my wife Brianna and our two boys Mason and Malcolm. Growing up I spent a lot of time outside with
             my Grandfather hiking, fishing and camping so my love of the outdoors was engrained in me from a young age.
