@@ -1,6 +1,6 @@
 
-// import '@mdi/font/css/materialdesignicons.css'
-import '@/assets/scss/style.scss'
+import './mdi/font/css/materialdesignicons.css'
+import './assets/scss/style.scss'
 import 'bootstrap'
 import { createApp } from 'vue'
 // @ts-ignore
