@@ -60,8 +60,6 @@ function buttonClick(event, currentSectionId) {
 }
 
 </script>
-
-
 <template>
   <div class="col-12 d-block justify-content-center mt-5" id="skills">
     <div>
