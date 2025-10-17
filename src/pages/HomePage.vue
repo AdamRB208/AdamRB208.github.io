@@ -14,7 +14,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
 <template>
   <section class="container-fluid">
     <!-- NOTE Home Section Starts Here -->
-    <div class="row home-section home-bg" id="home" style="height: 100dvh;">
+    <div class="row home-section home-bg" id="home">
       <HomeSection />
     </div>
     <!-- NOTE About Section Starts Here -->
@@ -30,19 +30,24 @@ import SkillsSection from '@/components/SkillsSection.vue';
       <ProjectsSection />
     </div>
     <!-- NOTE Contact Section Starts Here -->
-    <div class="row contact-section" id="contact" style="height: 100dvh; width: 100dvw; margin-top: 1rem;">
+    <div class="row contact-section" id="contact" style="margin-top: 1rem;">
       <ContactSection />
     </div>
   </section>
 </template>
 
 <style scoped lang="scss">
+.container-fluid {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .home-bg {
   background-image: url(https://media.istockphoto.com/id/2165466401/photo/abstract-digital-wave-background.jpg?s=612x612&w=0&k=20&c=DquetIJzq1KoZWhr6RFlWrUmyBIYi6ilVGTUQBhL7hE=);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-      width: 100dvw;
-      height: 100dvh;
+      width: 100%;
+        height: 100dvh;
+        overflow-x: hidden;
 }
 </style>
