@@ -65,7 +65,7 @@ i {
 }
 .container-fluid {
   max-width: 100%;
-  padding: 0 1em;
+  // padding: 0 1em;
   overflow-x: hidden;
 }
 </style>
