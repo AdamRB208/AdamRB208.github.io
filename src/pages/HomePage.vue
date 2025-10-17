@@ -40,6 +40,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
 .container-fluid {
   min-width: 100%;
   overflow-x: hidden;
+  padding: 0;
 }
 .home-bg {
   background-image: url(https://media.istockphoto.com/id/2165466401/photo/abstract-digital-wave-background.jpg?s=612x612&w=0&k=20&c=DquetIJzq1KoZWhr6RFlWrUmyBIYi6ilVGTUQBhL7hE=);

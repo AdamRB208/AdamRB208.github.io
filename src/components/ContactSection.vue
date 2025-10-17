@@ -56,10 +56,10 @@ a {
 }
 
 form {
-  width: 80dvh;
+  width: 80%;
 }
 
 .send-btn {
-  width: 80dvh;
+  width: 80%;
 }
 </style>

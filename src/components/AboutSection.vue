@@ -14,7 +14,7 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
           <img :src="Portfolio_Image" alt="portfolio image of Adam Borup">
         </div>
       </div>
-      <div class="col-md-7 d-flex justify-content-center ps-2 pe-5 mb-5">
+      <div class="col-md-7 d-flex justify-content-center">
         <div class="d-block">
           <div class="fw-bold text-center pb-2 mt-3">About Me</div>
           <p>My name is Adam Borup, I grew up in Boise Idaho and am happy to call it home. I am a proud husband and
@@ -54,5 +54,8 @@ img {
   height: 400px;
   border-radius: 5%;
   object-fit: fill;
+}
+p {
+  margin: 1.5em;
 }
 </style>
