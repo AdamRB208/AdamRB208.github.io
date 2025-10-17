@@ -46,7 +46,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-      min-width: 100%;
+      width: 100%;
         height: 100dvh;
         overflow-x: hidden;
         padding: none;
