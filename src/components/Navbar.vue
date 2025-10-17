@@ -20,7 +20,7 @@ watch(theme, () => {
     <div>
       <div>
         <!-- TODO get the links to show in a dropdown when screen size goes below X size -->
-        <span class="m-2 nav-links" style="display: inline;">
+        <span class="nav-links">
           <a href="#home" class="mdi mdi-home-outline font-glow fs-5 p-3"> Home</a>
           <a href="#about" class="mdi mdi-human-greeting-variant fs-5 p-3"> About Me</a>
           <a href="#skills" class="mdi mdi-karate fs-5 p-3">Skills</a>
@@ -59,13 +59,13 @@ nav {
   top: 0;
   z-index: 1020;
   height: auto;
+  padding: 0;
 }
 i {
   color: #87beb8;
 }
 .container-fluid {
   max-width: 100%;
-  // padding: 0 1em;
   overflow-x: hidden;
 }
 </style>

@@ -8,7 +8,8 @@
     <div class="d-block justify-content-center">
       <div>
         <p class="d-flex justify-content-center fs-2 mb-5">Looking to get in contact?</p>
-        <p class="mb-4">You can contact me via email below or any of my socials listed below. I look forward to
+        <p class="mb-4" style="margin: 1.5em;">You can contact me via email below or any of my socials listed below. I
+          look forward to
           hearing from you.
         </p>
       </div>
@@ -61,5 +62,6 @@ form {
 
 .send-btn {
   width: 80%;
+  text-align: center;
 }
 </style>
