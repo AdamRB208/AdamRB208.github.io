@@ -61,7 +61,6 @@ form {
 }
 
 .send-btn {
-  width: 80%;
-  text-align: center;
+  width: 100%;
 }
 </style>

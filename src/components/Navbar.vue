@@ -45,7 +45,7 @@ watch(theme, () => {
 a {
   text-decoration: none;
   color: #87beb8;
-    ;
+  padding: 0;
 }
 .nav-links {
   gap: 1em;
@@ -59,7 +59,9 @@ nav {
   top: 0;
   z-index: 1020;
   height: auto;
-  padding: 0;
+  padding: .5em;
+    display: flex;
+    flex-wrap: nowrap;
 }
 i {
   color: #87beb8;
