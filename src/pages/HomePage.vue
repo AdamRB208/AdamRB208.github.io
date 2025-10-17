@@ -38,7 +38,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
 
 <style scoped lang="scss">
 .container-fluid {
-  max-width: 100%;
+  min-width: 100%;
   overflow-x: hidden;
 }
 .home-bg {
@@ -50,5 +50,6 @@ import SkillsSection from '@/components/SkillsSection.vue';
         height: 100dvh;
         overflow-x: hidden;
         padding: none;
+        --bs-gutter-x: 0;
 }
 </style>
