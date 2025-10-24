@@ -40,8 +40,9 @@ function closeOtherSections(currentSectionId) {
   allSelectionIds.forEach(id => {
     const elemName = document.getElementById(id);
     if (elemName) {
-      const collapseInstance = Collapse.getOrCreateInstance(elemName);
+      const collapseInstance = Collapse.getOrCreateInstance(elemName, { toggle: false });
       collapseInstance.hide();
+      elemName.classList.remove('show')
       logger.log('elemName', elemName)
     }
   });
