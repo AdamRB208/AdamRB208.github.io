@@ -45,8 +45,12 @@
 @import "bootstrap/scss/offcanvas";
 @import "bootstrap/scss/placeholders";
 @import "bootstrap/scss/helpers";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 
+body {
+  font-family: 'EB Garamond', serif;
+}
 
 .no-highlight {
   user-select: none;
