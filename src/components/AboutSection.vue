@@ -19,7 +19,8 @@ import Portfolio_Image from '../assets/img/Portfolio_Image.png';
           <div class="fw-bold text-center pb-2 mt-3">About Me</div>
           <p>My name is Adam Borup, I grew up in Boise Idaho and am happy to call it home. I am a proud husband and
             father to my wife Brianna and our two boys Mason and Malcolm. Growing up I spent a lot of time outside with
-            my Grandfather hiking, fishing and camping so my love of the outdoors was engrained in me from a young age.
+            my Father and Grandfather hiking, fishing and camping so my love of the outdoors was engrained in me from a
+            young age.
             I also loved playing on the computer and as a kid, we had all kinds of computer games and video game
             consoles so that was also a big part of my life. Throughout my life I have always loved working with
             computers. I enjoy learning how to use new software or features and finding new ways to take advantage of
