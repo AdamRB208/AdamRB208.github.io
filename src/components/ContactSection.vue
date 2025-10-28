@@ -1,4 +1,13 @@
 <script setup>
+import { ref } from 'vue';
+
+
+const formData = ref({
+  users_email: '',
+  subject: '',
+  message: ''
+})
+
 
 </script>
 
@@ -16,13 +25,12 @@
       <div class="d-flex justify-content-center mb-4">
         <button class="btn" type="button" title="To My Github">
           <a href="https://github.com/AdamRB208" target="_blank">
-            <i class="mdi mdi-github fs-1"></i>
+            <i class="mdi mdi-github fs-1 text-glow"></i>
           </a>
         </button>
         <button class="btn" type="button" title="To My LinkedIn">
-          <a href="https://www.linkedin.com/in/adam-borup-0a0911265?trk=people-guest_people_search-card"
-            target="_blank">
-            <i class="mdi mdi-linkedin fs-1"></i>
+          <a href="https://www.linkedin.com/in/adamrborup" target="_blank">
+            <i class="mdi mdi-linkedin fs-1 text-glow"></i>
           </a>
         </button>
       </div>
@@ -38,7 +46,7 @@
             <textarea name="message" rows="3" placeholder="Your Message"></textarea>
           </div>
           <div class="mb-1">
-            <button class="btn btn-rounded btn-primary send-btn text-white" type="submit" title="Send Message">Send
+            <button class="btn btn-rounded btn-glow send-btn text-dark mb-4" type="submit" title="Send Message">Send
               Message <i class="mdi mdi-email-fast-outline ms-1 fs-5"></i></button>
           </div>
         </form>
@@ -67,5 +75,8 @@ input {
 
 textarea {
   width: 100%;
+}
+i {
+  text-shadow: 1px 1px 10px #b6b0b0;
 }
 </style>
