@@ -30,7 +30,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
       <ProjectsSection />
     </div>
     <!-- NOTE Contact Section Starts Here -->
-    <div class="row contact-section" id="contact" style="margin-top: 1rem;">
+    <div class="row contact-section" id="contact" style="margin-top: 1rem; height: auto;">
       <ContactSection />
     </div>
   </section>

@@ -1,12 +1,12 @@
 <script setup>
-import { ref } from 'vue';
+// import { ref } from 'vue';
 
 
-const formData = ref({
-  users_email: '',
-  subject: '',
-  message: ''
-})
+// const formData = ref({
+//   users_email: '',
+//   subject: '',
+//   message: ''
+// })
 
 
 </script>
@@ -34,8 +34,13 @@ const formData = ref({
           </a>
         </button>
       </div>
+      <div class="d-flex justify-content-center mb-4">
+        <i class="mdi mdi-less-than fs-3 text-glow"></i><i class="mdi mdi-slash-forward fs-3 text-glow"></i>
+        <p class="fs-3">Adamborup@adamrb-portfolio.com</p>
+        <i class="mdi mdi-greater-than fs-3 text-glow"></i>
+      </div>
       <div class="d-flex justify-content-center">
-        <form target="_blank" action="">
+        <!-- <form target="_blank" action="">
           <div class="mb-3">
             <input type="email" name="users_email" placeholder="Your Email Address" required>
           </div>
@@ -49,7 +54,7 @@ const formData = ref({
             <button class="btn btn-rounded btn-glow send-btn text-dark mb-4" type="submit" title="Send Message">Send
               Message <i class="mdi mdi-email-fast-outline ms-1 fs-5"></i></button>
           </div>
-        </form>
+        </form> -->
       </div>
     </div>
   </div>
