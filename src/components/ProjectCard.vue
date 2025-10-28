@@ -5,7 +5,7 @@
 const projects = [
   { name: 'Tower', icons: '', imgPath: "", path_1: "https://tower.adamrb-portfolio.com", path_2: "https://github.com/AdamRB208/tower_2", description: "Tower is a fullstack application with a Vue front end and a Node.js back end. The application is designed to be a social media style of application where users can get posts from other users, create posts, delete and update their own content." },
   { name: 'Keepr', icons: '', imgPath: "", path_1: "https://keepr.adamrb-portfolio.com", path_2: "https://github.com/AdamRB208/keepr_dotnet_fullstack", description: "Keepr is a fullstack application with a Vue front end and a C# and SQL back end. The application is designed to be a social media style of application where users can get posts from other users, post, delete and update their own content." },
-  { name: 'Post-It', icons: '', imgPath: "", path_1: "", path_2: "https://github.com/AdamRB208/post_it_dotnet_fullstack", description: "Post It is a fullstack application with a Vue front end and a C# and SQL back end. The application is designed to be a social media style of application where users can get posts from other users, post, delete and update their own content." },
+  // { name: 'Post-It', icons: '', imgPath: "", path_1: "", path_2: "https://github.com/AdamRB208/post_it_dotnet_fullstack", description: "Post It is a fullstack application with a Vue front end and a C# and SQL back end. The application is designed to be a social media style of application where users can get posts from other users, post, delete and update their own content." },
 ]
 
 function liveAppClick(path_1) {

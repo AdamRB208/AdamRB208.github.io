@@ -29,19 +29,17 @@
       <div class="d-flex justify-content-center">
         <form target="_blank" action="">
           <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1"
-              placeholder="To: Adamrborup@gmail.com">
+            <input type="email" name="users_email" placeholder="Your Email Address" required>
           </div>
           <div class="mb-3">
-            <input type="title" class="form-control" id="exampleFormControlInput1" placeholder="Title:">
+            <input type="text" name="subject" placeholder="Subject" required>
           </div>
           <div class="mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-              placeholder="Email Body:"></textarea>
+            <textarea name="message" rows="3" placeholder="Your Message"></textarea>
           </div>
           <div class="mb-1">
-            <button class="btn btn-rounded btn-primary send-btn text-white" title="Send Message">Send Message <i
-                class="mdi mdi-email-fast-outline ms-1 fs-5"></i></button>
+            <button class="btn btn-rounded btn-primary send-btn text-white" type="submit" title="Send Message">Send
+              Message <i class="mdi mdi-email-fast-outline ms-1 fs-5"></i></button>
           </div>
         </form>
       </div>
@@ -61,6 +59,13 @@ form {
 }
 
 .send-btn {
+  width: 100%;
+}
+input {
+  width: 100%;
+}
+
+textarea {
   width: 100%;
 }
 </style>
