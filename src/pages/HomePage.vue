@@ -53,4 +53,7 @@ import SkillsSection from '@/components/SkillsSection.vue';
         padding: 0;
         --bs-gutter-x: 0;
 }
+// .skills-section {
+//   max-height: min-content;
+// }
 </style>

@@ -77,7 +77,7 @@ function buttonClick(event, currentSectionId) {
         containers and utilizing Figma for UI/UX designs and layouts. </p>
     </div>
   </div>
-  <div class="d-flex justify-content-center">
+  <div class="col-12 d-flex justify-content-center skill-btn-container">
     <p>
       <button @click.prevent="buttonClick($event, 'frontendBtn')" class="btn btn-glow text-center" type="button"
         data-bs-target="#frontendBtn" aria-expanded="false" aria-controls="frontendBtn"><i
@@ -149,6 +149,9 @@ img {
 
 .iconDesc {
   max-width: 12em;
+}
+.skill-btn-container {
+  flex-wrap: wrap;
 }
 </style>
 <!-- TODO dont forget to copy link in the credits section or similar section for attribute for icon. -->
