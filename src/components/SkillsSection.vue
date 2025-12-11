@@ -64,7 +64,7 @@ function buttonClick(event, currentSectionId) {
 <template>
   <div class="col-12 d-block justify-content-center mt-5" id="skills">
     <div>
-      <div class="fs-1 text-center" style="margin-bottom: 5rem;">My Skills</div>
+      <div class="fs-1 text-center" style="margin-bottom: 1rem;">My Skills</div>
       <p>Learning frontend web development I have learned multiple languages and frameworks that include HTML, CSS,
         JavaScript and Vue.js. I have learned how to structure and style web content with HTML and CSS. Handle events,
         create responsive layouts, integrate with third party services, DOM manipulation and create reusable UI
@@ -99,31 +99,31 @@ function buttonClick(event, currentSectionId) {
         Other
       </button>
     </p>
-  </div>
-  <div class="collapse" id="frontendBtn">
-    <div class="card card-body flex-row justify-content-evenly mt-4"
-      style="height: 300px; width: 100dvw; border: none;">
-      <div v-for="icon in frontendIcons" :key="icon.name" class="icons">
-        <img :src="icon.path" :alt="icon.name">
-        <p class="iconDesc">{{ icon.description }}</p>
+    <div class="collapse" id="frontendBtn">
+      <div class="card card-body flex-row justify-content-evenly mt-4"
+ style="height: auto; width: 100%; border: none;">
+        <div v-for="icon in frontendIcons" :key="icon.name" class="icons">
+          <img :src="icon.path" :alt="icon.name">
+          <p class="iconDesc">{{ icon.description }}</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="collapse" id="backendBtn">
-    <div class="card card-body flex-row justify-content-evenly mt-4"
-      style="height: 300px; width: 100dvw; border: none;">
-      <div v-for="icon in backendIcons" :key="icon.name" class="icons">
-        <img :src="icon.path" :alt="icon.name">
-        <p class="iconDesc">{{ icon.description }}</p>
+    <div class="collapse" id="backendBtn">
+      <div class="card card-body flex-row justify-content-evenly mt-4"
+ style="height: auto; width: 100%; border: none;">
+        <div v-for="icon in backendIcons" :key="icon.name" class="icons">
+          <img :src="icon.path" :alt="icon.name">
+          <p class="iconDesc">{{ icon.description }}</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="collapse" id="otherBtn">
-    <div class="card card-body flex-row justify-content-evenly mt-4"
-      style="height: 300px; width: 100dvw; border: none;">
-      <div v-for="icon in otherIcons" :key="icon.name" class="icons">
-        <img :src="icon.path" :alt="icon.name">
-        <p class="iconDesc">{{ icon.description }}</p>
+    <div class="collapse" id="otherBtn">
+      <div class="card card-body flex-row justify-content-evenly mt-4"
+ style="height: auto; width: 100%; border: none;">
+        <div v-for="icon in otherIcons" :key="icon.name" class="icons">
+          <img :src="icon.path" :alt="icon.name">
+          <p class="iconDesc">{{ icon.description }}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -134,7 +134,6 @@ function buttonClick(event, currentSectionId) {
 p {
   margin: 1.5em;
 }
-
 
 img {
   width: 64px;
@@ -149,10 +148,11 @@ img {
 
 .iconDesc {
   max-width: 12em;
+    margin: 10px;
 }
 .skill-btn-container {
+  width: 100%;
+    height: 100%;
   flex-wrap: wrap;
 }
 </style>
-<!-- TODO dont forget to copy link in the credits section or similar section for attribute for icon. -->
-<!-- <a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons">C sharp icons created by Freepik - Flaticon</a> -->
