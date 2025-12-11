@@ -1,7 +1,7 @@
 
 import '../node_modules/@mdi/font/css/materialdesignicons.css'
-import './assets/scss/style.scss'
-import 'bootstrap'
+import '../node_modules/bootstrap/scss/vendor/_rfs.scss'
+import 'bootstrap/dist/css/bootstrap.css'
 import { createApp } from 'vue'
 // @ts-ignore
 import App from './App.vue'
