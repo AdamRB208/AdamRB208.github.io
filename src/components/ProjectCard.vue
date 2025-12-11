@@ -28,8 +28,9 @@ function sourceCodeClick(path_2) {
     <div class="fs-5 mt-2 mb-2">{{ project.name }}</div>
     <p>{{ project.description }}</p>
     <div class="d-flex justify-content-evenly mt-4">
-      <button @click="liveAppClick(project.path_1)" class="btn btn-glow" type="button">Live Application</button>
-      <button @click="sourceCodeClick(project.path_2)" class="btn btn-glow">Source Code</button>
+      <button @click="liveAppClick(project.path_1)" class="btn btn-outline-success" type="button">Live
+        Application</button>
+      <button @click="sourceCodeClick(project.path_2)" class="btn btn-outline-success">Source Code</button>
     </div>
   </div>
 </template>

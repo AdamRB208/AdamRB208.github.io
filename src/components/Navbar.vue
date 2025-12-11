@@ -16,7 +16,7 @@ watch(theme, () => {
 </script>
 
 <template>
-  <nav class="container-fluid navbar navbar-expand-md bg-codeworks">
+  <nav class="container-fluid navbar navbar-expand-md bg-dark">
     <div>
       <div>
         <!-- TODO get the links to show in a dropdown when screen size goes below X size -->

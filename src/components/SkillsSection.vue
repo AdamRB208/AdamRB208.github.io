@@ -79,21 +79,22 @@ function buttonClick(event, currentSectionId) {
   </div>
   <div class="col-12 d-flex justify-content-center skill-btn-container">
     <p>
-      <button @click.prevent="buttonClick($event, 'frontendBtn')" class="btn btn-glow text-center" type="button"
+      <button @click.prevent="buttonClick($event, 'frontendBtn')" class="btn btn-outline-success text-center"
+        type="button"
         data-bs-target="#frontendBtn" aria-expanded="false" aria-controls="frontendBtn"><i
           class="mdi mdi-monitor-cellphone fs-4 text-center"></i>
         Frontend
       </button>
     </p>
     <p>
-      <button @click.prevent="buttonClick($event, 'backendBtn')" class="btn btn-glow" type="button"
+      <button @click.prevent="buttonClick($event, 'backendBtn')" class="btn btn-outline-success" type="button"
         data-bs-target="#backendBtn" aria-expanded="false" aria-controls="backendBtn"><i
           class="mdi mdi-database-outline fs-4 text-center"></i>
         Backend
       </button>
     </p>
     <p>
-      <button @click.prevent="buttonClick($event, 'otherBtn')" class="btn btn-glow text-center" type="button"
+      <button @click.prevent="buttonClick($event, 'otherBtn')" class="btn btn-outline-success text-center" type="button"
         data-bs-target="#otherBtn" aria-expanded="false" aria-controls="otherBtn"><i
           class="mdi mdi-source-branch fs-4 text-center"></i>
         Other
