@@ -21,7 +21,7 @@ function sourceCodeClick(path_2) {
 
 
 <template>
-  <div v-for="project in projects" :key="project.name" class="col-md-6 text-center">
+  <div v-for="project in projects" :key="project.name" class="col-md-6 text-center me-0">
     <img
       src="https://plus.unsplash.com/premium_photo-1720032305135-a87c5e0888b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHdlYiUyMGFwcGxpY2F0aW9uc3xlbnwwfHwwfHx8MA%3D%3D"
       :alt="project.name">
